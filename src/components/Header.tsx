@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, MessageCircle, Wine } from 'lucide-react';
-import siteContent from '../lib/siteContent';
+import { siteContent } from '../lib/siteContent';
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);

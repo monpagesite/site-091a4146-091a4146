@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import * as LucideIcons from 'lucide-react';
-import siteContent from '../lib/siteContent';
+import { siteContent } from '../lib/siteContent';
 
 const HowItWorks: React.FC = () => {
   const stepsRef = useRef<HTMLDivElement>(null);

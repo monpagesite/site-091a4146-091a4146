@@ -118,7 +118,7 @@ export const siteContent = {
         nameTamil: "ஜிகர்தண்டா",
         category: "பாரம்பரிய",
         price: 80,
-        image: "https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?auto=format&fit=crop&w=1600&q=80",
+        image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&w=1600",
         popular: true
       },
       {
@@ -127,7 +127,7 @@ export const siteContent = {
         nameTamil: "பனீர் சோடா",
         category: "சோடா",
         price: 30,
-        image: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&w=1600&q=80"
+        image: "https://images.unsplash.com/photo-1437418747212-8d9709afab22?auto=format&w=1600"
       }
     ]
   },
@@ -250,11 +250,9 @@ export const siteContent = {
       links: [
         { icon: "Facebook", url: "#", label: "Facebook" },
         { icon: "Instagram", url: "#", label: "Instagram" },
-        { icon: "MessageCircle", url: `https://wa.me/919876543210`, label: "WhatsApp" }
+        { icon: "Twitter", url: "#", label: "Twitter" }
       ]
     },
     copyright: "© 2024 சிமலா குள்ரிங்ஸ். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை."
   }
 };
-
-export default siteContent;

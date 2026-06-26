@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Flame, TrendingUp } from 'lucide-react';
-import siteContent from '../lib/siteContent';
+import { siteContent } from '../lib/siteContent';
 
 const ProductGrid: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState('அனைத்தும்');

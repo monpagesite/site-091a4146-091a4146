@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import siteContent from '../lib/siteContent';
+import { siteContent } from '../lib/siteContent';
 
 const HeroSection: React.FC = () => {
   const contentRef = useRef<HTMLDivElement>(null);

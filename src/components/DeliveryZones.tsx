@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { MapPin, Clock } from 'lucide-react';
-import siteContent from '../lib/siteContent';
+import { siteContent } from '../lib/siteContent';
 
 const DeliveryZones: React.FC = () => {
   const gridRef = useRef<HTMLDivElement>(null);
